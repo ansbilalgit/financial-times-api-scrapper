@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ft_crawler.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace ft_crawler
     {
         static void Main(string[] args)
         {
+            ParsingManager.StartParsing();
+
+            Console.WriteLine("Finished \n Press Any key to stop");
+            Console.ReadKey();
         }
     }
 }
