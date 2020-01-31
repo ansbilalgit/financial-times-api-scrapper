@@ -76,7 +76,7 @@ namespace ft_crawler
                             }
 
                             ExcelManager.SaveDataTable(updatedTable);
-                            LoggerUtility.WriteLog("Record Saved", i.ToString());
+                            LoggerUtility.WriteLog("Record Saved", (i+1).ToString());
 
                         }
                         catch (Exception ex)

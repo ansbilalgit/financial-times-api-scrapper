@@ -10,7 +10,6 @@ namespace ft_crawler.Utilities
     {
         public static string ParseDate(string d)
         {
-            DateTime dateTime;
             string _date = string.Empty;
             try
             {

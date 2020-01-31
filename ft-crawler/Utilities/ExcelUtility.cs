@@ -45,7 +45,7 @@ namespace ft_crawler.Utilities
 
                 return ds;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }

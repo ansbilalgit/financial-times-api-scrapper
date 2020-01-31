@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ft-crawler", "ft-crawler.csproj", "{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ft-crawler-setup", "ft-crawler-setup\ft-crawler-setup.vdproj", "{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +17,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|x64.ActiveCfg = Debug|x64
-		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|x64.Build.0 = Debug|x64
+		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|x64.ActiveCfg = Release|x64
+		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|x64.Build.0 = Release|x64
 		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|x86.ActiveCfg = Debug|x86
 		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Debug|x86.Build.0 = Debug|x86
 		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +29,13 @@ Global
 		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Release|x64.Build.0 = Release|x64
 		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Release|x86.ActiveCfg = Release|x86
 		{BAEF22E8-F0D5-4D2A-9D58-A586AFE47660}.Release|x86.Build.0 = Release|x86
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Debug|Any CPU.ActiveCfg = Release
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Debug|Any CPU.Build.0 = Release
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Debug|x64.ActiveCfg = Debug
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Debug|x86.ActiveCfg = Debug
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Release|Any CPU.ActiveCfg = Release
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Release|x64.ActiveCfg = Release
+		{DE62490D-8189-4BE1-ACA2-D5FA6AFD626D}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
